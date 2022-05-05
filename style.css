@@ -21,6 +21,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    min-width: 520px;
 }
 
 .top-body-container {
@@ -79,22 +80,53 @@ button {
     border-radius: 5px;
     padding: 7px 25px;
 }
+ 
+.second-container {
+    margin: 25px 0 100px;
+} 
 
 .second-header {
     color: #1F2937;
     font-size: 36px;
     font-weight: bold;
+    text-align: center;
+}
+
+.squares-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.square {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholdersquare {
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
 }
 
 .imagedesc {
     font-size: 18px;
     color: #747474;
+    max-width: 175px;
+    text-align: center;
 }
 
 
 .quote-container {
     background-color: #E5E7EB;
     padding: 100px 350px 100px;
+    display: flex;
+    flex-direction: column;
 }
 
 .quote-text {
@@ -107,6 +139,7 @@ button {
 .quote-author {
     font-size: 20px;
     font-weight: bold;
+    text-align: end;
 }
 
 .action-title {
@@ -123,12 +156,23 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    min-width: 520px;
 }
 .action-container button {
     border: 2px solid #F9FAF8;
 }
 
 .footer {
+
+    color:#E5E7EB;
+    padding: 20px 0 20px;
+    
+}
+
+.footer-container {
     background-color: #1F2937;
-    color:#E5E7EB
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
