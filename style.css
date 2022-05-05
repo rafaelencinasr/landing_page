@@ -91,8 +91,10 @@ button {
     color: #747474;
 }
 
+
 .quote-container {
     background-color: #E5E7EB;
+    padding: 100px 350px 100px;
 }
 
 .quote-text {
@@ -107,11 +109,20 @@ button {
     font-weight: bold;
 }
 
+.action-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
 .action-container {
     background-color: #3882F6;
     color: #F9FAF8;
     border-radius: 10px;
-    padding: 25px 100px;
+    padding: 40px 100px;
+    margin: 75px 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .action-container button {
     border: 2px solid #F9FAF8;
