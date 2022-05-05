@@ -10,10 +10,33 @@
 
 body {
     font-family: roboto, Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 .top-container {
     background-color: #1F2937;
+    padding: 20px 300px 150px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-body-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin-top: 100px;
+    
+}
+img {
+    height: auto;
+    width: 475px;
+    margin-left:5px;
+}
+.left-body {
+     max-width: 500px;
 }
 
 .logo {
@@ -36,7 +59,11 @@ ul {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
+
 
 a {
     text-decoration: none;
@@ -50,7 +77,7 @@ button {
     font-weight: bold;
     border: none; 
     border-radius: 5px;
-    padding: 5px 15px;
+    padding: 7px 25px;
 }
 
 .second-header {
