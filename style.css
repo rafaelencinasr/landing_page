@@ -1,0 +1,96 @@
+@font-face {
+    font-family: roboto;
+    src: url(./fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: roboto-light;
+    src: url(./fonts/Roboto-Light.ttf)
+}
+
+body {
+    font-family: roboto, Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.main-title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.top-subtext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 15px;
+    font-weight: bold;
+    border: none; 
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+.second-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.imagedesc {
+    font-size: 18px;
+    color: #747474;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-family: roboto-light, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.action-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 25px 100px;
+}
+.action-container button {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    color:#E5E7EB
+}
